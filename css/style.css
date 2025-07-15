@@ -1,0 +1,142 @@
+/* Variables y Reset */
+:root {
+    --orange: #fd7e14;
+    --blue: #0d6efd;
+    --dark-bg: #121212;
+    --button-bg: #2d2d2d;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--dark-bg);
+    color: #e0e0e0;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.calculator-title {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2.5rem;
+    color: var(--orange);
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    font-size: 1rem;
+    letter-spacing: 2px;
+    color: #9e9e9e;
+}
+
+/* Display */
+#display {
+    font-size: 3.5rem;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    text-align: right;
+    border: 1px solid #333;
+    min-height: 100px;
+    overflow-x: auto;
+    font-weight: 300;
+}
+
+/* Botonera */
+.button-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+}
+
+button {
+    border: none;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    padding: 15px 0;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.btn-number {
+    background-color: var(--button-bg);
+    color: white;
+}
+
+.btn-number:hover {
+    background-color: #3d3d3d;
+}
+
+.btn-operator {
+    background-color: var(--orange);
+    color: black;
+}
+
+.btn-operator:hover {
+    background-color: #ff8c00;
+}
+
+.btn-special {
+    background-color: #252525;
+    color: var(--orange);
+}
+
+.btn-special:hover {
+    background-color: #353535;
+}
+
+.btn-reset {
+    background-color: rgba(13, 110, 253, 0.2);
+    color: var(--blue);
+    border: 1px solid var(--blue);
+}
+
+.btn-reset:hover {
+    background-color: var(--blue);
+    color: white;
+}
+
+.btn-equals {
+    background-color: var(--blue);
+    color: white;
+}
+
+.btn-equals:hover {
+    background-color: #0b5ed7;
+}
+
+.btn-zero {
+    grid-column: span 2;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+    #display {
+        font-size: 2.5rem;
+        min-height: 80px;
+    }
+    
+    button {
+        font-size: 1.3rem;
+        padding: 12px 0;
+    }
+}
