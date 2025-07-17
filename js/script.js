@@ -37,3 +37,58 @@ function appendNumber(number) {
 function updateDisplay() {
     display.textContent = currentInput.replace('.', ',');
 }
+
+const specialButtons = document.querySelectorAll('.btn-special');
+
+specialButtons.forEach(button => {
+    button.addEventListener('click', () => {
+        if (button.textContent === '+/-') toggleSign();
+        if (button.textContent === '%') applyPercentage();
+    });
+});
+
+function setOperation(op) {
+    if (operation !== null) calculate();
+    previousInput = currentInput;
+    operation = op === '×' ? '*' : op === '÷' ? '/' : op;
+    resetScreen = true;
+}
+
+function calculate() {
+    if (operation === null || resetScreen) return;
+    
+    let result;
+    const prev = parseFloat(previousInput.replace(',', '.'));
+    const current = parseFloat(currentInput.replace(',', '.'));
+
+    if (isNaN(prev) || isNaN(current)) return;
+
+    switch (operation) {
+        case '+': result = prev + current; break;
+        case '-': result = prev - current; break;
+        case '*': result = prev * current; break;
+        case '/': result = prev / current; break;
+        default: return;
+    }
+
+    currentInput = result.toString().replace('.', ',');
+    operation = null;
+    updateDisplay();
+}
+
+function toggleSign() {
+    currentInput = (parseFloat(currentInput.replace(',', '.')) * -1).toString().replace('.', ',');
+    updateDisplay();
+}
+
+function applyPercentage() {
+    currentInput = (parseFloat(currentInput.replace(',', '.')) / 100).toString().replace('.', ',');
+    updateDisplay();
+}
+
+function reset() {
+    currentInput = '0';
+    previousInput = '';
+    operation = null;
+    updateDisplay();
+}
