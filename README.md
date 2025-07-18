@@ -1,48 +1,39 @@
-🧮 NexusCalc - Calculadora Premium con JavaScript
+# 🧮 NexusCalc - Calculadora Premium con JavaScript
 
-¡Hola! 👋 Soy [Tu Nombre], y este es mi proyecto NexusCalc: una calculadora premium con diseño oscuro y efectos visuales, creada con HTML, CSS y JavaScript.
+Hola! 👋 Soy Thomas Ramirez, y este es mi proyecto NexusCalc: una calculadora premium con diseño oscuro y efectos visuales, creada con HTML, CSS y JavaScript.
 
 [![Ver Demo](https://img.shields.io/badge/🌐_Ver_Demo_en_Vivo-FF5722?style=for-the-badge)](https://ramirezthomasalan.github.io/NexusCalc/)
 
-📸 Captura de Pantalla
-
+## 📸 Captura de Pantalla
 ![Preview](preview.jpg)
-🔧 Tecnologías Usadas
 
-    HTML5 (Estructura semántica)
+    ## 🔧 Tecnologías Usadas
+- **HTML5** (Estructura semántica)
+- **CSS3** (Flexbox, Grid, efectos hover)
+- **Mobile-First** (Diseño responsive)
+- **Git** (Control de versiones)
+- **Bootstrap 5** (Sistema de grillas)
+- **Confetti.js** (Efectos visuales)
+- **JavaScript** (Lógica de calculadora)
 
-    CSS3 (Variables CSS, Flexbox, Responsive)
-
-    JavaScript (Lógica de calculadora)
-
-    Bootstrap 5 (Sistema de grillas)
-
-    Confetti.js (Efectos visuales)
-
-🛠️ Proceso de Desarrollo (5 días)
-
+## 🛠️ Proceso de Desarrollo (5 días)
 Día por día fui construyendo:
+- **1**: Estructura HTML con Bootstrap
+- **2**: Estilos CSS con tema oscuro
+- **3**: Lógica básica de operaciones
+- **4**: Funciones especiales (% y +/-)
+- **5**: Efectos confetti y soporte de teclado
 
-    Día 1: Estructura HTML con Bootstrap
+## 📂 Estructura del Proyecto
 
-    Día 2: Estilos CSS con tema oscuro
+## NexusCalc/
+## ├── index.html          # Estructura principal
+## ├── styles.css          # Estilos personalizados
+## ├── script.js           # Lógica de la calculadora
+## ├── preview.jpg         # Captura de pantalla
+## └── README.md           # Este archivo
 
-    Día 3: Lógica básica de operaciones
-
-    Día 4: Funciones especiales (% y +/-)
-
-    Día 5: Efectos confetti y soporte de teclado
-
-📂 Estructura del Proyecto
-
-NexusCalc/
-├── index.html          # Estructura principal
-├── styles.css          # Estilos personalizados
-├── script.js           # Lógica de la calculadora
-├── preview.jpg         # Captura de pantalla
-└── README.md           # Este archivo
-
-💡 Características Destacadas
+## 💡 Características Destacadas
 
     Diseño premium con tema oscuro
 
@@ -56,7 +47,7 @@ NexusCalc/
 
     Totalmente responsive
 
-🚀 ¿Cómo probarlo?
+## 🚀 ¿Cómo probarlo?
 
     Clona el repositorio
 
@@ -64,8 +55,8 @@ NexusCalc/
 
     ¡Empieza a calcular!
 
-📝 Licencia
+## 📝 Licencia
 
 MIT License - Libre para usar y modificar
 
-✨ ¿Te gustó el proyecto? ¡Déjame una ⭐ en GitHub! Fue un gran desafío implementar toda la lógica de cálculo desde cero.
+## ✨ ¿Te gustó el proyecto? ¡Déjame una ⭐ en GitHub! Fue un gran desafío implementar toda la lógica de cálculo desde cero.
