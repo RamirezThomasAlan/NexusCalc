@@ -5,7 +5,7 @@ Hola! 👋 Soy Thomas Ramirez, y este es mi proyecto NexusCalc: una calculadora 
 [![Ver Demo](https://img.shields.io/badge/🌐_Ver_Demo_en_Vivo-FF5722?style=for-the-badge)](https://ramirezthomasalan.github.io/NexusCalc/)
 
 ## 📸 Captura de Pantalla
-![Preview](img/preview.jpg)
+![Preview de NexusCalc](preview.jpg)
 
 ## 🔧 Tecnologías Usadas
 - **HTML5** (Estructura semántica)
@@ -27,11 +27,11 @@ Día por día fui construyendo:
 ## 📂 Estructura del Proyecto
 
 ## NexusCalc/
-## ├── index.html          # Estructura principal
-## ├── styles.css          # Estilos personalizados
-## ├── script.js           # Lógica de la calculadora
-## ├── preview.jpg         # Captura de pantalla
-## └── README.md           # Este archivo
+## ├── index.html          --> Estructura principal
+## ├── styles.css          --> Estilos personalizados
+## ├── script.js           --> Lógica de la calculadora
+## ├── preview.jpg         --> Captura de pantalla
+## └── README.md           --> Este archivo
 
 ## 💡 Características Destacadas
 
