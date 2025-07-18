@@ -1,6 +1,7 @@
 🧮 NexusCalc - Calculadora Premium con JavaScript
 
 ¡Hola! 👋 Soy [Tu Nombre], y este es mi proyecto NexusCalc: una calculadora premium con diseño oscuro y efectos visuales, creada con HTML, CSS y JavaScript.
+
 🚀 Demo en Vivo
 [![Ver Demo](https://img.shields.io/badge/🌐_Ver_Demo_en_Vivo-FF5722?style=for-the-badge)](https://ramirezthomasalan.github.io/NexusCalc/)
 
