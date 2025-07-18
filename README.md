@@ -16,7 +16,7 @@ Hola! 👋 Soy Thomas Ramirez, y este es mi proyecto NexusCalc: una calculadora 
 - **Confetti.js** (Efectos visuales)
 - **JavaScript** (Lógica de calculadora)
 
-## 🛠️ Proceso de Desarrollo (5 días)
+🛠️ Proceso de Desarrollo (5 días)
 Día por día fui construyendo:
 - **1**: Estructura HTML con Bootstrap
 - **2**: Estilos CSS con tema oscuro
@@ -46,14 +46,6 @@ Día por día fui construyendo:
     Efecto confetti en resultados grandes
 
     Totalmente responsive
-
-## 🚀 ¿Cómo probarlo?
-
-    Clona el repositorio
-
-    Abre index.html en tu navegador
-
-    ¡Empieza a calcular!
 
 ## 📝 Licencia
 
