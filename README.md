@@ -1,4 +1,4 @@
-# 🧮 NexusCalc - Calculadora Premium con JavaScript
+# 🧮 NexusCalc - Calculadora Premium con JavaScript 
 
 Hola! 👋 Soy Thomas Ramirez, y este es mi proyecto NexusCalc: una calculadora premium con diseño oscuro y efectos visuales, creada con HTML, CSS y JavaScript.
 
